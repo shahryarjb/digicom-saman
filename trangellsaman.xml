@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="digicom_pay" method="upgrade">
+	<name>TrangellSaman Payment - DigiCom Pay Plugin</name>
+	<title>TrangellSaman</title>
+	<author>Trangell</author>
+	<creationDate>Feb 2016</creationDate>
+	<copyright>Copyright 2016 Trangell Team</copyright>
+	<license>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html GNU/GPL version 2</license>
+	<authorEmail>info@trangell.com</authorEmail>
+	<authorUrl>http://trangell.com</authorUrl>
+	<version>0.0.1</version>
+	<description> پلاگین پرداخت سامان برای دی جی کام</description>
+
+	<files>
+		<filename plugin="trangellsaman">trangellsaman.php</filename>
+		<folder>trangellsaman</folder>
+	</files>
+	<config name="params">
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="samanmerchantId" type="text" label="کد مرچند" default="" required=""/>
+				<field name="plugin_name" type="text" default="TrangellSaman Payment" label="TrangellSaman" description="" />
+			</fieldset>
+			
+		</fields>
+	</config>
+</extension>
